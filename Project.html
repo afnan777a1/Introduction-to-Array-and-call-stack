@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript Objects data Structure and Arrays</h1>
+
+    <script>
+      var student = {
+        name: "Afnan",
+        age: "14",
+        Grade: "8",
+        School_name: "A.K School and Collage",
+        Roll: "17",
+        Hobby: "Watching Anime, Playing Football, litsening Music",
+        Fav_sport: "Football",
+      };
+
+      document.write("Student name is: " + student.name + "<br>");
+      document.write("Student's Age is: " + student.age + "<br>");
+      document.write("Student reads in Class: " + student.Grade + "<br>");
+      document.write("Student Roll in Class: " + student.Roll + "<br>");
+      document.write(
+        "Student School name is: " + student.School_name + "<br><br>"
+      );
+      document.write(
+        "Student's Favourite Sport is: " + student.Fav_sport + "<br>"
+      );
+
+      document.write("Student's Hobbies are: " + student.Hobby + "<br>");
+
+      var color = ["white", "black", "red", "green", "blue"];
+
+      document.write(
+        "Before Killing, the Colors are: " + color.join(", ") + "<br>"
+      );
+      document.write("My Favourite Color is: " + color[3] + "<br>");
+      color.pop();
+      document.write(
+        "After Killing, the Colors are: " + color.join(" [☠️] ") + "<br>"
+      );
+    </script>
+  </body>
+</html>
